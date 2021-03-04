@@ -1,4 +1,4 @@
-Script written in python3.
+![alt text](https://github.com/Libereau/Revshell_generator/blob/main/capture_revshell.PNG)
 
 To make it easier, chmod +x the script, then add it to your bashrc or other in alias : 
 - alias revshell="/my/directory/./shell_generator.py"
@@ -12,11 +12,9 @@ Then call it with all the required args :
 
 The script will echo in the terminal the rev shell, or will generate a php file where you called the script. 
 
-![alt text](https://github.com/Libereau/Revshell_generator/blob/main/capture_revshell.PNG)
-
 It is based on the ressources of : 
 - https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
 - https://www.asafety.fr/reverse-shell-one-liner-cheat-sheet/
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 
- 
+Script written in python3.
