@@ -1,7 +1,7 @@
 ![alt text](https://github.com/Libereau/Revshell_generator/blob/main/capture_revshell.PNG)
 
-To make it easier, chmod +x the script, then add it to your bashrc or other in alias : 
-- alias revshell="/my/directory/./shell_generator.py"
+To make it easier, `chmod +x` the script, then add it to your bashrc or other in alias : 
+- `alias revshell="/my/directory/./shell_generator.py"`
 
 Before running it, you might need to download the php reverse of pentestmonkey (where you want) and modify the path in the script.
 
