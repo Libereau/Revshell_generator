@@ -32,7 +32,6 @@ def main():
 
     if (sys.argv[1] == "-i") or (sys.argv[1] == "--ip-local"):
         ip = sys.argv[2]
-        # Ajouter vérification de l'ip avec une regex
 
         if (sys.argv[3] == "-p") or (sys.argv[3] == "--port-local"):
             if str(sys.argv[4]).isdigit() :
