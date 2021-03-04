@@ -12,6 +12,8 @@ Then call it with all the required args :
 
 The script will echo in the terminal the rev shell, or will generate a php file where you called the script. 
 
+![alt text](https://github.com/Libereau/Revshell_generator/blob/main/capture_revshell.png)
+
 It is based on the ressources of : 
 - https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
 - https://www.asafety.fr/reverse-shell-one-liner-cheat-sheet/
